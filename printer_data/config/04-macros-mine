@@ -4,4 +4,15 @@
 [accelr_test]
 ##############################
 
+description: KPA Button. Checks that accelerometer is connected
+
   accelerometer_query
+
+######################
+[accelr_calib_X]
+#####################
+
+description: KPA Button. Starts sheper resonance test on X axis.
+
+  shaper_calibrate axis=X
+  
