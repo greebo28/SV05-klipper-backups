@@ -5,7 +5,7 @@
 ##############################
 
 description: KPA Button. Checks that accelerometer is connected
-gcode
+gcode:
   accelerometer_query
 
 ######################
@@ -13,6 +13,6 @@ gcode
 #####################
 
 description: KPA Button. Starts sheper resonance test on X axis.
-gcode
+gcode:
   shaper_calibrate axis=X
   
