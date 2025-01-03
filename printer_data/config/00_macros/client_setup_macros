@@ -1,6 +1,6 @@
 [gcode_macro _CLIENT_VARIABLE]
 gcode:
-  variable_use_custom_pos   : False ; use custom park coordinates for x,y [True/False]
+  variable_use_custom_pos   : True  ; use custom park coordinates for x,y [True/False]
   variable_custom_park_x    : 225   ; custom x position; value must be within your defined min and max of X # RIGHT 25-01-03
   variable_custom_park_y    : 10   ; custom y position; value must be within your defined min and max of Y  # FRONT 25-01-03
   variable_custom_park_dz   : 2.0   ; custom dz value; the value in mm to lift the nozzle when move to park position
@@ -11,7 +11,7 @@ gcode:
   variable_speed_unretract  : 35.0  ; unretract speed in mm/s
   variable_speed_hop        : 15.0  ; z move speed in mm/s
   variable_speed_move       : 100.0 ; move speed in mm/s
-  variable_park_at_cancel   : TRUE ; allow to move the toolhead to park while execute CANCEL_PRINT [True/False] # 25-01-03
+  variable_park_at_cancel   : True  ; allow to move the toolhead to park while execute CANCEL_PRINT [True/False] # 25-01-03
   variable_park_at_cancel_x : 10  ; different park position during CANCEL_PRINT [None/Position as Float]; park_at_cancel must be True  # LEFT 25-01-03
   variable_park_at_cancel_y : 220  ; different park position during CANCEL_PRINT [None/Position as Float]; park_at_cancel must be True # BACK 25-01-03
 ## !!! Caution [firmware_retraction] must be defined in the printer.cfg if you set use_fw_retract: True !!!
