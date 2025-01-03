@@ -1,4 +1,5 @@
 [gcode_macro _CLIENT_VARIABLE]
+gcode
 variable_use_custom_pos   : False ; use custom park coordinates for x,y [True/False]
 variable_custom_park_x    : 225   ; custom x position; value must be within your defined min and max of X # RIGHT 25-01-03
 variable_custom_park_y    : 10   ; custom y position; value must be within your defined min and max of Y  # FRONT 25-01-03
