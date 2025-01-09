@@ -15,4 +15,20 @@ gcode:
 description: KPA Button. Starts sheper resonance test on X axis.
 gcode:
   shaper_calibrate axis=X
+
+############################### 25-01-09
+[gcode_macro turn_off_steppers]
+###############################
+
+description: turns off all stepper motors
+gcode:
+  M84
   
+############################### 25-01-09
+[gcode_macro turn_off_extruder]
+###############################
+
+description: turns off extruder stepper
+gcode:
+  M84 E
+
