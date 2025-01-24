@@ -37,8 +37,8 @@ gcode:
 #   Nozzle Cleaner
 #####################################################################    
 [gcode_macro CLEAN_NOZZLE]
-variable_start_x: 50 # 25-01-24
-variable_start_y: -30 # 25-01-24
+variable_start_x: 20 # 25-01-24
+variable_start_y: -40 # 25-01-24
 variable_start_z: 10.6
 variable_wipe_dist_y: -3
 variable_wipe_qty: 5
