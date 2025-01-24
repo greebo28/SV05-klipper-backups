@@ -72,7 +72,7 @@ gcode:
    
  {% endfor %}
 
- ## Raise nozzle after complete
+ # Raise nozzle after complete
  G1 Z{raise_distance}
  G1 X0 Y0 # 25-01-24
 
