@@ -39,11 +39,11 @@ gcode:
 [gcode_macro CLEAN_NOZZLE]
 variable_start_x: 30 # 25-01-24
 variable_start_y: -34 # 25-01-24
-variable_start_z: 3.0 # 25-01-29
+variable_start_z: 3.5 # 25-01-24
 variable_wipe_dist_y: -3
 variable_wipe_qty: 5
 variable_wipe_spd: 50
-variable_raise_distance: 3 # 25-01-29
+variable_raise_distance: 2 # 25-01-29
 
 gcode:
  {% if "xyz" not in printer.toolhead.homed_axes %}
