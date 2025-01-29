@@ -43,7 +43,7 @@ variable_start_z: 3.5 # 25-01-24
 variable_wipe_dist_y: -3
 variable_wipe_qty: 5
 variable_wipe_spd: 50
-variable_raise_distance: 0.5 # 25-01-24
+variable_raise_distance: 4 # 25-01-24
 
 gcode:
  {% if "xyz" not in printer.toolhead.homed_axes %}
