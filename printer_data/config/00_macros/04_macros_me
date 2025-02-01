@@ -30,7 +30,7 @@ gcode:
 
 description: turns off extruder stepper
 gcode:
-  M84 E
+  M18 E
 
 
 ##################################################################### 25-01-24
